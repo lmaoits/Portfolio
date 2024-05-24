@@ -1,0 +1,390 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main>section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+h2{
+  padding-top: 3%;
+}
+
+h3{
+  font-size: 100%;
+  padding-top: 1%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    font-size: 1vw;
+  }
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  line-height: 1.6;
+  color: white;
+}
+a  
+{
+  color : whitesmoke;
+  font-weight: bold;
+  text-decoration : none;
+}
+main {
+  margin-top: 90px;
+  margin-bottom: 80px;
+}
+main a  
+{
+  color : #333;
+  font-weight: bold;
+  text-decoration : none;
+}
+
+main p {
+  line-height: 25px;
+}
+
+p strong{
+  color: #333;
+}
+
+
+ul{
+  list-style-type:none;
+}
+
+li{
+  color: #333;
+}
+
+
+/***************************************** NAVIGATION *****************************************/
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: rgb(37, 42, 45);
+  color: #fff;
+  padding: 5px;
+  z-index: 10;
+  /* box-shadow: 0px 0px 10px 0px #000; */
+}
+
+body>header>nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body>header>nav>div a {
+  margin-right: 40px;
+  padding: 5px;
+  transition: 0.3s;
+}
+
+body>header>nav>div a:hover {
+  color: #ffae42;
+  border-bottom: 2px solid #ffae42;
+  transition: 0.2s;
+}
+
+.links-container a:focus {
+  border-bottom: 2px solid #ffae42;
+}
+
+button[type="submit"]:hover {
+  background-color: #ffae42;
+  border-color: #ffae42;
+  color: #333;
+}
+
+div>a img {
+  width: 55px;
+}
+
+div>a img:hover{
+  filter:hue-rotate(1deg);
+  filter: saturate(130%);
+}
+ 
+/******************************************** BODY ********************************************/
+
+body{
+  font-family: 'Century Gothic', sans-serif;
+  background: linear-gradient(rgb(37, 42, 45),#272C4A);
+  min-height: 100vh;
+}
+
+main>section{
+  color: whitesmoke;
+  background-color: rgba(51,51,51,0.3);
+  box-shadow: 0px 0px 10px 0px #000;
+  border-radius: 5px;
+}
+
+main>section span{
+  font-style: bold;
+  color: #ffc86b;
+  font-size: 35px;
+}
+
+main>section button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: 3px solid #ffc86b;
+  border-radius: 5px;
+  background-color: #333;
+  color: #ffc86b;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 20px;
+}
+
+main>section button:hover {
+  background-color: #ffae42;
+  border-color: #ffae42;
+  color: #333;
+}
+
+
+
+/******************************************** Aside ********************************************/
+aside{
+  position: fixed;
+  bottom: 60px; /* Distance depuis le bas de la fenêtre */
+  right: 20px;
+}
+
+aside>a img{
+  display: block;
+  margin-bottom: 10px;
+  width: 50px;
+}
+
+aside>a img:hover{
+  filter:hue-rotate(1deg);
+  filter: saturate(130%);
+}
+
+
+
+/******************************************** DL CV ********************************************/
+main>div{
+  width: 95%; 
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px; 
+  box-sizing: border-box; 
+}
+
+main>div:first-child{
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+main>div section:first-child {
+  width: 100%;
+  max-width: 1120px;
+  margin: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+main>div section:first-child h1,h2{
+  position: relative;
+  margin-left: 5%;
+  font-size: 2vw;
+}
+
+#mainbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box; 
+}
+
+
+main>div section:first-child a {
+  position: relative;
+  margin-top: 15%;
+  margin-left: 75%;
+  width: 25%;
+  height: 2%;
+}
+
+main>div section:first-child img{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 2%;
+}
+
+#mainbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+#mainbox article{
+  width: 600px;
+  height: 700px;
+  background-color: white;
+  margin: 1%;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+
+#Left{
+  margin-right: 2%;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px white;
+  padding: 1%;
+}
+
+#Right{
+  background-color: white; 
+  box-shadow: 0px 0px 10px 0px white;
+  padding: 1%;
+}
+
+#mainbox h2 h3{
+  margin-top: 5%;
+}
+
+#mainbox article:not(:first-child) {
+  margin-left: 1%;
+}
+
+
+/******************************************** Galerie ********************************************/
+#galerie {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#galerie > article {
+  margin: 5px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  float: left;
+  width: 180px;
+  display: flex;
+  margin-bottom: 9%;
+}
+
+#galerie > article:hover {
+  border: 1px solid #777;
+}
+
+#galerie > article img {
+  width: 100%;
+  height: auto;
+}
+
+/******************************************** Footer ********************************************/
+footer{
+  font-size: 10px;
+  background: #262A2F;
+  box-shadow: 0px 0px 10px 0px #000;
+  color: #fff;
+  padding: 20px 0 20px 0;
+}
+
+
+#sending{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+
+
+/******************************************** Project ********************************************/
+table {
+  width: 60%;
+  border-collapse: collapse;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  margin: auto;
+  margin-top: 10%;
+  font-size: 1vw;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 15px;
+  text-align: left;
+}
+
+thead th {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+tbody td:last-child {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media screen and (max-width: 768px) {
+  table {
+    width: 100%;
+    font-size: 3vw;
+  }
+}
+
+
+
+/******************************************** Form ********************************************/
+form>ul li{
+  color: whitesmoke;
+  position: relative;
+  margin-left: 5%;
+  margin-bottom: 2%;
+  font-size: 100%;
+  padding-bottom: 4%;
+}
+
+
+
+
+/******************************************** Mentions ********************************************/
+#mentions h1{
+  color: white;
+  margin-bottom: 1%;
+  margin-top: 6%;
+}

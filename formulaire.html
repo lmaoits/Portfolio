@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="keywords" content="Portoflio, Louis, Torchet, Maillard">
+        <meta descrpiption="portfolio de Louis TORCHET--Maillard">
+        <title>Formulaire</title>
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <script src="script/script.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div>
+                    <a href="index.html">
+                        <img id="acceuil" src="images\home.png" alt="home">
+                    </a>
+                </div>   
+                <div>
+                    <a href="about.html">A propos</a>
+                    <a href="projets.html">Projets</a>
+                    <a href="formulaire.html">Formulaire</a>
+                    <a href="CV.html">CV</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <form action="https://www.w3schools.com/action_page.php" method="post">
+                    <ul>
+                        <li>
+                            <label for="question1">Question 1: Que pensez vous de ce site en deux mots ?</label>
+                            <input type="text" id="question1" name="question1">
+                        </li>
+                        <li>
+                            <label for="question2">Question 2: Que pensez vous de ce site dans le détail ?</label>
+                            <textarea id="question2" name="question2" rows="4" cols="50"></textarea>
+                        </li>
+                        <li>
+                            <label for="question3">Question 3: Quelle marque préférez vous entre :</label>
+                            <select id="question3" name="question3">
+                              <option value="option1">Audi</option>
+                              <option value="option2">BMW</option>
+                              <option value="option3">Mercedes</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="question4">Question 4: Qu'utilisez vous :</label>
+                            <input type="checkbox" id="question4_option1" name="question4_option1" value="option1">
+                            <label for="question4_option1">Le HTML</label>
+                            <input type="checkbox" id="question4_option2" name="question4_option2" value="option2">
+                            <label for="question4_option2">Le JS</label>
+                            <input type="checkbox" id="question4_option3" name="question4_option3" value="option3">
+                            <label for="question4_option3">Le CSS</label>
+                        </li>
+                        <li>
+                            <label for="question5">Question 5: Vous préférez :</label>
+                            <input type="radio" id="question5_option1" name="question5" value="option1">
+                            <label for="question5_option1">L'assembleur</label>
+                            <input type="radio" id="question5_option2" name="question5" value="option2">
+                            <label for="question5_option2">Python</label>
+                            <input type="radio" id="question5_option3" name="question5" value="option3">
+                            <label for="question5_option3">Ruby</label>
+                        </li>
+                        <li>
+                            <label for="question6">Question 6: A quelle date remplissez vous ce formulaire ?</label>
+                            <input type="date" id="question6" name="question6">
+                        </li>
+                        <li>
+                            <label for="question7">Question 7: A quelle heure remplissez vous ce formulaire ?</label>
+                            <input type="time" id="question7" name="question7">
+                        </li>
+                        <li>
+                            <label for="question8">Question 8: Quel est votre courriel</label>
+                            <input type="email" id="question8" name="question8">
+                        </li>
+                        <li>
+                            <label for="question9">Question 9: Quel est votre numéro de téléphone ?</label>
+                            <input type="tel" id="question9" name="question9">
+                        </li>
+                        <li>
+                            <label for="question10">Question 10: Veuillez entrer l'URL de votre site web :</label>
+                            <input type="url" id="question10" name="question10">
+                        </li>
+                        <li>
+                            <label for="question11">Question 11: Quelle est votre couleur préférée ?</label>
+                            <input type="color" id="question11" name="question11">
+                        </li>
+                        <li>
+                            <label for="question12">Question 12: A quel niveau aimez vous le html</label>
+                            <input type="range" id="question12" name="question12" min="0" max="100">
+                        </li>
+                        <li>
+                            <label for="question13">Question 13: Fichier</label>
+                            <input type="file" id="question13" name="question13">
+                        </li>
+                        <li>
+                            <label for="nom">Nom :</label>
+                            <input type="text" id="nom" name="nom" required>
+                        </li>
+                        <li>
+                            <label for="prenom">Prénom :</label>
+                            <input type="text" id="prenom" name="prenom" required>
+                        </li>
+                        <li>
+                            <label for="age">Âge :</label>
+                            <input type="number" id="age" name="age" min="1" max="120" required>
+                        </li>
+                        <li>
+                            <label for="Envoie">Appuyez pour envoyer le formulaire</label>
+                            <input type="submit" value="Envoyer">
+                        </li>
+                        <li>
+                            <label for="Réinitialisation">Appuyez pour réinitialiser les réponses</label>
+                            <input type="reset" value="Réinitialiser">
+                        </li>
+                    </ul>
+                  </form>
+            </section>
+        </main>
+        <footer>
+            <p id="footer_p">&copy; 2024 Louis TORCHET--MAILLARD. Tous droits réservés. | <a href="mentions.html">Politique de confidentialité</a></p>
+        </footer>
+    </body>
+</html>
